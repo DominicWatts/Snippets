@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="head.additional">
+            <block ifconfig="header/snippets/header_enabled" class="PixieMedia\Snippets\Block\HeadAdditional" name="headadditional" as="headadditional" template="PixieMedia_Snippets::headadditional.phtml"/>
+        </referenceBlock>
+        <referenceContainer name="after.body.start">
+            <block ifconfig="header/snippets/body_start_enabled" class="PixieMedia\Snippets\Block\BodyStart" name="bodystart" as="bodystart" template="PixieMedia_Snippets::bodystart.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
