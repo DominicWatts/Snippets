@@ -6,7 +6,7 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="PixieMedia_Snippets::config_pixiemedia_snippets" title="header"/>
+                            <resource id="PixieMedia_Snippets::config_pixiemedia_snippets" title="Pixie Header Snippets"/>
                         </resource>
                     </resource>
                 </resource>
